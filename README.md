@@ -60,11 +60,33 @@ Step 7: Save Your Work
 
 
 # Code:
+```
+int sensorState = 0;
 
+void setup()
+{
+  pinMode(2, INPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  // read the state of the sensor/digital input
+  sensorState = digitalRead(2);
+  // check if sensor pin is HIGH. if it is, set the
+  // LED on.
+  if (sensorState == HIGH) {
+    digitalWrite(LED_BUILTIN, HIGH);
+  } else {
+    digitalWrite(LED_BUILTIN, LOW);
+  }
+  delay(10); // Delay a little bit to improve simulation performance
+}
+```
 
 
 # Output:
-
+<img width="1467" height="697" alt="image" src="https://github.com/user-attachments/assets/32305a3b-7041-4a65-9957-196606065971" />
 
 
 
