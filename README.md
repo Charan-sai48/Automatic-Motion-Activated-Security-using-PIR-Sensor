@@ -88,6 +88,7 @@ void loop()
 # Output:
 <img width="1467" height="697" alt="image" src="https://github.com/user-attachments/assets/32305a3b-7041-4a65-9957-196606065971" />
 
+<img width="963" height="1280" alt="WhatsApp Image 2026-08-19 at 4 13 09 PM" src="https://github.com/user-attachments/assets/4aeb8e4b-dbdf-4146-8a72-8f2f22838f2b" />
 
 
 # Result:
